@@ -3,7 +3,7 @@ window.addEventListener("load", () => {
 });
 
 async function getRandomPhoto() {
-  // const apiKey = "AbUNy7pk-1-7F5yJ2z68bpCYtXaAzo1jQYvp7W42QYA";
+  const apiKey = "AbUNy7pk-1-7F5yJ2z68bpCYtXaAzo1jQYvp7W42QYA";
   try {
     const response = await fetch(
       `https://api.unsplash.com/photos/random?client_id=${apiKey}`
